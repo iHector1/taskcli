@@ -1,0 +1,21 @@
+{
+  "name": "task-cli",
+  "version": "1.0.0",
+  "description": "Is a console application tha can store task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hector Gonzalez",
+  "bin": {
+    "task": "./src/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "dotenv": "^11.0.0",
+    "inquirer": "^8.2.0",
+    "mongoose": "^6.1.6"
+  }
+}
